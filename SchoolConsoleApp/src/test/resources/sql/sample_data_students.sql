@@ -1,0 +1,2 @@
+insert into students(student_id, group_id, first_name, last_name) values (101, 4, 'Mohan', 'Doe');
+insert into students(student_id, group_id, first_name, last_name) values (102, 5, 'Krishna', 'Johnson'); 

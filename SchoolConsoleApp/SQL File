@@ -1,0 +1,7 @@
+CREATE USER admin WITH PASSWORD 'Administrator';
+
+GRANT ALL PRIVILEGES ON DATABASE "school-console-app" TO admin;
+DROP TABLE IF EXISTS public.courses CASCADE;
+DROP TABLE IF EXISTS public.groups;
+DROP TABLE IF EXISTS public.students;
+DROP TABLE IF EXISTS public.student_course;
